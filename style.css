@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: "Libre Baskerville", Georgia, serif;
+  text-align: center;
+}
+
+.poster {
+  width: 50%;
+  margin: 8vh auto 0;
+}
+
+.poster img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 5px solid #fff;
+}
+
+.poster h1 {
+  margin: 40px 0 24px;
+  font-size: clamp(1.5rem, 3.2vw, 3rem);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.poster p {
+  margin: 0;
+  font-size: clamp(0.9rem, 1.4vw, 1.25rem);
+}
+
+@media (max-width: 700px) {
+  .poster {
+    width: 90%;
+    margin-top: 10vh;
+  }
+}
